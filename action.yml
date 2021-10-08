@@ -1,6 +1,8 @@
-name: Update version number
+name: Update sfdx-project.json version number
 description: Updates version number in sfdx-project.json
-author: navikt
+icon: bar-chart-2
+color: orange
+author: johnforeland
 outputs:
     isSuccess:
         description: Response status if everything went ok.
