@@ -1,11 +1,14 @@
 name: Update sfdx-project.json version number
 description: Updates version number in sfdx-project.json
-icon: bar-chart-2
-color: orange
 author: johnforeland
+
 outputs:
     isSuccess:
         description: Response status if everything went ok.
+
+branding:
+    icon: bar-chart-2
+    color: orange
 
 runs:
     using: 'node12'
